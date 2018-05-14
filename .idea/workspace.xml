@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a4ccbb2-d2ce-4181-8265-b9352c23db76" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gallery_oop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/bootstrap-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/bootstrap-rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/plugins/morris.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/sb-admin-rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/sb-admin.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/bordered-pulled.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/core.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/fixed-width.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/font-awesome.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/icons.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/larger.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/list.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/mixins.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/path.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/rotated-flipped.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/spinning.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/stacked.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/less/variables.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_bordered-pulled.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_fixed-width.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_larger.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_list.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_rotated-flipped.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_spinning.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_stacked.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/font-awesome/scss/font-awesome.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/plugins/flot/excanvas.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/plugins/flot/flot-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/plugins/flot/jquery.flot.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/plugins/flot/jquery.flot.pie.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/plugins/flot/jquery.flot.resize.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/plugins/flot/jquery.flot.tooltip.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/plugins/morris/morris-data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/plugins/morris/morris.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/plugins/morris/morris.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/js/plugins/morris/raphael.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/_large_image_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/_large_image_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/_large_image_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/_large_image_4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/image-1 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/image-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-1 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-10 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-11 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-12 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-13 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-14 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-15 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-16 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-16.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-17 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-17.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-18 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-18.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-19 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-19.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-2 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-20 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-21 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-22 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-23 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-24 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-25 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-25.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-26 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-26.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-27 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-27.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-28 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-28.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-29 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-29.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-3 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-30 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-30.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-31 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-31.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-32 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-32.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-33 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-33.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-34 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-34.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-35 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-35.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-36 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-36.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-37 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-37.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-38 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-38.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-39 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-39.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-4 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-40 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-41 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-41.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-42 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-42.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-43 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-43.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-44 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-44.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-5 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-50 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-50.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-6 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-7 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-8 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-9 copy.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/car_pictures/images_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/blog-home.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/blog-post.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/navigation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/sidebar.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/photo.php" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="807" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="gallery_oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery_oop" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a4ccbb2-d2ce-4181-8265-b9352c23db76" name="Default" comment="" />
+      <created>1526289756441</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526289756441</updated>
+      <workItem from="1526289757555" duration="244000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="244000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="805" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32909605" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32909605" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+</project>
