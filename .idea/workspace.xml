@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4ccbb2-d2ce-4181-8265-b9352c23db76" name="Default" comment="" />
+    <list default="true" id="5a4ccbb2-d2ce-4181-8265-b9352c23db76" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/new_config.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/new_config.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,25 +33,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="config.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/config.php">
+      <file leaf-file-name="new_config.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/includes/new_config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+            <state relative-caret-position="90">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="new_config.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/includes/new_config.php">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="init.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/init.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="36">
-              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-59">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="database.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/includes/database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="342">
+              <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -88,15 +105,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_content.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="23" column="26" selection-end-line="23" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -116,6 +124,9 @@
         <option value="$PROJECT_DIR$/admin/includes/top_nav.php" />
         <option value="$PROJECT_DIR$/admin/includes/config.php" />
         <option value="$PROJECT_DIR$/admin/includes/init.php" />
+        <option value="$PROJECT_DIR$/admin/includes/header.php" />
+        <option value="$PROJECT_DIR$/admin/includes/new_config.php" />
+        <option value="$PROJECT_DIR$/admin/includes/database.php" />
       </list>
     </option>
   </component>
@@ -198,7 +209,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526289756441</updated>
-      <workItem from="1526289757555" duration="4904000" />
+      <workItem from="1526289757555" duration="5932000" />
     </task>
     <task id="LOCAL-00001" summary="Dodanie plikow szkieletu bootstrap">
       <created>1526290313148</created>
@@ -228,11 +239,18 @@
       <option name="project" value="LOCAL" />
       <updated>1526294855313</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Zmiana nazwy pliku config.php na new_config.php, problem z sql.">
+      <created>1526295272286</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1526295272286</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4904000" />
+    <option name="totallyTimeSpent" value="5932000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -245,6 +263,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32909605" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -278,7 +297,8 @@
     <MESSAGE value="Rozbicie panelu admina na elementy nawigacji" />
     <MESSAGE value="Aktualizacja side_nav + dodanie plikow nawigacji" />
     <MESSAGE value="Dodanie pliku config.php z polaczenie z baza danych" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie pliku config.php z polaczenie z baza danych" />
+    <MESSAGE value="Zmiana nazwy pliku config.php na new_config.php, problem z sql." />
+    <option name="LAST_COMMIT_MESSAGE" value="Zmiana nazwy pliku config.php na new_config.php, problem z sql." />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
@@ -354,13 +374,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/init.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
@@ -368,8 +381,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/init.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-59">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/new_config.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/includes/database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
