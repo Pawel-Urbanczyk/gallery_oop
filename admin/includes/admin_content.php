@@ -13,9 +13,11 @@
 
                 $found_user = User::find_user_by_id(2);
 
-
+                $user = User::instantion($found_user);
 
                    echo $user->id . "</br>";
+                   echo $user->username . "</br>";
+                   echo $user->last_name . "</br>";
 
 
 
