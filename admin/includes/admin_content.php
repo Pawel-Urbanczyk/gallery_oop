@@ -10,10 +10,16 @@
             </h1>
 
             <?php
-               $sql = "SELECT * FROM users WHERE id=1";
-               $result = $database->query($sql);
-               $users_found = mysqli_fetch_array($result);
-               echo $users_found['username'];
+
+                $found_user = User::find_user_by_id(2);
+
+
+
+                   echo $user->id . "</br>";
+
+
+
+
             ?>
 
             <ol class="breadcrumb">
