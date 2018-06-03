@@ -29,6 +29,7 @@
 
         $username = "";
         $password = "";
+        $the_message = "";
 
     }
 
