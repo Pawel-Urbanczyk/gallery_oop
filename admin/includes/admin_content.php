@@ -13,12 +13,18 @@
 
                 $user = new User();
 
-                $user->username = "rai";
-                $user->password = "qwerty";
-                $user->first_name = "pawel";
-                $user->last_name = "urbanczyk";
+                $user->username = "student";
+                $user->password = "weird";
+                $user->first_name = "david";
+                $user->last_name = "backham";
 
                 $user->create();
+
+//                $user = User::find_user_by_id(14);
+//                $user->username = "RAISONOV";
+//                $user->password = "1234567";
+//                $user->last_name = "krowka";
+//                $user->update();
 
 //           $user = User::find_user_by_id(15);
 //           $user->delete();

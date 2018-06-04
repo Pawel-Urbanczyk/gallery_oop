@@ -97,6 +97,22 @@ class User{
 
     }
 
+    protected function clean_properties(){
+
+        global $database;
+
+        $clean_properties = array();
+
+        foreach ($this->properties() as $key => $value){
+
+            $clean_properties[$key] = $database->escape_string($value);
+
+        }
+
+        return $clean_properties;
+
+    }
+
     public function save(){
 
         return isset($this->id) ? $this->update() : $this->create();
@@ -107,7 +123,7 @@ class User{
 
         global $database;
 
-        $properties = $this->properties();
+        $properties = $this->clean_properties();
 
         $sql = "INSERT INTO " .self::$db_table . "(" . implode(",", array_keys($properties)) . ")";
         $sql .= "VALUES ('". implode("','", array_values($properties)) ."')";
@@ -134,11 +150,18 @@ class User{
 
         global $database;
 
+        $properties = $this->clean_properties();
+
+        $property_pairs = array();
+
+        foreach ($properties as $key => $value){
+
+            $property_pairs[] = "{$key}='{$value}'";
+
+        }
+
         $sql = "UPDATE " .self::$db_table . " SET ";
-        $sql .= "username= '" . $database->escape_string($this->username) . "', ";
-        $sql .= "password= '" . $database->escape_string($this->password) . "', ";
-        $sql .= "first_name= '" . $database->escape_string($this->first_name) . "', ";
-        $sql .= "last_name= '" . $database->escape_string($this->last_name) . "' ";
+        $sql .= implode(", ", $property_pairs);
         $sql .= " WHERE id= " . $database->escape_string($this->id);
 
         $database->query($sql);
