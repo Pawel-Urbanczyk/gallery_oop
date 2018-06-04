@@ -11,20 +11,20 @@
 
             <?php
 
-                $user = new User();
+//                $user = new User();
+//
+//                $user->username = "student2";
+//                $user->password = "weird2";
+//                $user->first_name = "david2";
+//                $user->last_name = "backham2";
+//
+//                $user->create();
 
-                $user->username = "student2";
-                $user->password = "weird2";
-                $user->first_name = "david2";
-                $user->last_name = "backham2";
-
-                $user->create();
-
-//                $user = User::find_user_by_id(14);
-//                $user->username = "RAISONOV";
-//                $user->password = "1234567";
-//                $user->last_name = "krowka";
-//                $user->update();
+                $user = User::find_by_id(20);
+                $user->username = "RAISONOV";
+                $user->password = "1234567";
+                $user->last_name = "krowka";
+                $user->update();
 
 //           $user = User::find_user_by_id(15);
 //           $user->delete();
