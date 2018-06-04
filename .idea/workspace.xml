@@ -29,20 +29,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="113" column="80" selection-start-line="113" selection-start-column="80" selection-end-line="113" selection-end-column="80" />
+            <state relative-caret-position="251">
+              <caret line="78" column="68" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_content.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="admin_content.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="450">
+              <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="26" />
               <folding>
                 <element signature="e#256#293#0#PHP" expanded="true" />
               </folding>
@@ -139,8 +139,8 @@
         <option value="$PROJECT_DIR$/admin/login.php" />
         <option value="$PROJECT_DIR$/admin/includes/sessios.php" />
         <option value="$PROJECT_DIR$/admin/includes/database.php" />
-        <option value="$PROJECT_DIR$/admin/includes/admin_content.php" />
         <option value="$PROJECT_DIR$/admin/includes/user.php" />
+        <option value="$PROJECT_DIR$/admin/includes/admin_content.php" />
       </list>
     </option>
   </component>
@@ -227,7 +227,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526289756441</updated>
-      <workItem from="1526289757555" duration="34257000" />
+      <workItem from="1526289757555" duration="36010000" />
     </task>
     <task id="LOCAL-00001" summary="Dodanie plikow szkieletu bootstrap">
       <created>1526290313148</created>
@@ -369,11 +369,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528104805970</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Dodanie update method (CRUD)">
+      <created>1528106366654</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1528106366654</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Dodanie delete method (CRUD)">
+      <created>1528107468938</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1528107468938</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34257000" />
+    <option name="totallyTimeSpent" value="36010000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,7 +450,9 @@
     <MESSAGE value="Drobne poprawki w login.php i dodanie message i check_message" />
     <MESSAGE value="Dodanie metody create (CRUD)" />
     <MESSAGE value="Poprawa sql query w create" />
-    <option name="LAST_COMMIT_MESSAGE" value="Poprawa sql query w create" />
+    <MESSAGE value="Dodanie update method (CRUD)" />
+    <MESSAGE value="Dodanie delete method (CRUD)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie delete method (CRUD)" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -588,20 +604,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-          <folding>
-            <element signature="e#256#293#0#PHP" expanded="true" />
-          </folding>
+        <state relative-caret-position="251">
+          <caret line="78" column="68" selection-start-line="78" selection-start-column="68" selection-end-line="78" selection-end-column="68" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
+    <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="113" column="80" selection-start-line="113" selection-start-column="80" selection-end-line="113" selection-end-column="80" />
+        <state relative-caret-position="450">
+          <caret line="25" selection-start-line="25" selection-end-line="27" selection-end-column="26" />
+          <folding>
+            <element signature="e#256#293#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

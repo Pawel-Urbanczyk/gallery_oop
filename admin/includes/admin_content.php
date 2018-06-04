@@ -20,8 +20,17 @@
 //
 //                $user->create();
 
-           $user = User::find_user_by_id(2);
-           $user->delete();
+//           $user = User::find_user_by_id(2);
+//           $user->delete();
+
+//            $user = User::find_user_by_id(14);
+//            $user->password= "ROSBERG";
+//            $user->save();
+
+//            $user = new User();
+//            $user->username = "NIKO123";
+//            $user->save();
+
 
             ?>
 
