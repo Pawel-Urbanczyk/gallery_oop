@@ -13,10 +13,10 @@
 
                 $user = new User();
 
-                $user->username = "student";
-                $user->password = "weird";
-                $user->first_name = "david";
-                $user->last_name = "backham";
+                $user->username = "student2";
+                $user->password = "weird2";
+                $user->first_name = "david2";
+                $user->last_name = "backham2";
 
                 $user->create();
 

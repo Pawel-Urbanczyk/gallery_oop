@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5a4ccbb2-d2ce-4181-8265-b9352c23db76" name="Default" comment="Dodanie metody properties i abstrakcji w metodzie create">
+    <list default="true" id="5a4ccbb2-d2ce-4181-8265-b9352c23db76" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/admin_content.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_content.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/user.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="user.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+            <state relative-caret-position="354">
+              <caret line="176" column="28" lean-forward="true" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -42,7 +40,7 @@
         <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="324">
-              <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -136,8 +134,8 @@
         <option value="$PROJECT_DIR$/admin/login.php" />
         <option value="$PROJECT_DIR$/admin/includes/sessios.php" />
         <option value="$PROJECT_DIR$/admin/includes/database.php" />
-        <option value="$PROJECT_DIR$/admin/includes/admin_content.php" />
         <option value="$PROJECT_DIR$/admin/includes/user.php" />
+        <option value="$PROJECT_DIR$/admin/includes/admin_content.php" />
       </list>
     </option>
   </component>
@@ -224,7 +222,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1526289756441</updated>
-      <workItem from="1526289757555" duration="38232000" />
+      <workItem from="1526289757555" duration="40009000" />
     </task>
     <task id="LOCAL-00001" summary="Dodanie plikow szkieletu bootstrap">
       <created>1526290313148</created>
@@ -387,11 +385,25 @@
       <option name="project" value="LOCAL" />
       <updated>1528108157948</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Dodanie metody properties i abstrakcji w metodzie create">
+      <created>1528111501013</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1528111501013</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Dodanie abstrakcji do metody update, dodanie metody clean_properties &quot;czyszczaca&quot; wprowadzane dane do bazy danych">
+      <created>1528112852235</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1528112852235</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38232000" />
+    <option name="totallyTimeSpent" value="40009000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,7 +469,9 @@
     <MESSAGE value="Dodanie update method (CRUD)" />
     <MESSAGE value="Dodanie delete method (CRUD)" />
     <MESSAGE value="Dodanie save method (CRUD), dodajaca rekord do bazy danych chyba ze istanieje to go uaktualnia" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie save method (CRUD), dodajaca rekord do bazy danych chyba ze istanieje to go uaktualnia" />
+    <MESSAGE value="Dodanie metody properties i abstrakcji w metodzie create" />
+    <MESSAGE value="Dodanie abstrakcji do metody update, dodanie metody clean_properties &quot;czyszczaca&quot; wprowadzane dane do bazy danych" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie abstrakcji do metody update, dodanie metody clean_properties &quot;czyszczaca&quot; wprowadzane dane do bazy danych" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -612,14 +626,14 @@
     <entry file="file://$PROJECT_DIR$/admin/includes/admin_content.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
-          <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/user.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="86" lean-forward="true" selection-start-line="86" selection-end-line="86" />
+        <state relative-caret-position="354">
+          <caret line="176" column="28" lean-forward="true" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="50" />
         </state>
       </provider>
     </entry>
