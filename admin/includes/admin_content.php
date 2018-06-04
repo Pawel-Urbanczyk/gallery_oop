@@ -11,13 +11,14 @@
 
             <?php
 
-             $found_user = User::find_user_by_id(2);
-             echo $found_user->username;
+                $user = new User();
 
+                $user->username = "sloor";
+                $user->password = "sloor123";
+                $user->first_name = "piter";
+                $user->last_name = "hhh";
 
-
-
-
+                $user->create();
 
             ?>
 
