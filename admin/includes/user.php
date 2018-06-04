@@ -120,6 +120,18 @@ class User{
 
     } // end of update method
 
+    public function delete(){
+
+        global $database;
+
+        $sql = "DELETE FROM users WHERE id= '".$database->escape_string($this->id)."'";
+
+        $database->query($sql);
+
+        return (mysqli_affected_rows($database->connection) == 1) ? true : false;
+
+    } // end of delete method
+
 
 } // end of user class
 
