@@ -40,7 +40,7 @@
 
     <h4 class="bg-danger"><?php echo $the_message; ?></h4>
 
-    <form id="login-id" action="" method="post">
+    <form id="login-id" action="" method="POST">
 
         <div class="form-group">
             <label for="username">Username</label>

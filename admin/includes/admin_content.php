@@ -11,6 +11,13 @@
 
             <?php
 
+
+            $users = User::find_all();
+
+            foreach ($users as $user){
+                echo $user->username;
+            }
+
 //                $user = new User();
 //
 //                $user->username = "student2";
@@ -20,11 +27,11 @@
 //
 //                $user->create();
 
-                $user = User::find_by_id(20);
-                $user->username = "RAISONOV";
-                $user->password = "1234567";
-                $user->last_name = "krowka";
-                $user->update();
+//                $user = User::find_by_id(20);
+//                $user->username = "RAISONOV";
+//                $user->password = "1234567";
+//                $user->last_name = "krowka";
+//                $user->update();
 
 //           $user = User::find_user_by_id(15);
 //           $user->delete();
