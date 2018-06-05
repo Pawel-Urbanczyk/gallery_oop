@@ -19,14 +19,14 @@
 //                echo $user->password . "<br>";
 //            }
 
-                $user = new User();
-
-                $user->username = "NEW_USER";
-                $user->password = "";
-                $user->first_name = "";
-                $user->last_name = "";
-
-                $user->create();
+//                $user = new User();
+//
+//                $user->username = "NEW_USER";
+//                $user->password = "";
+//                $user->first_name = "";
+//                $user->last_name = "";
+//
+//                $user->create();
 
 //                $user = User::find_by_id(20);
 //                $user->username = "RAISONOV";
@@ -44,6 +44,22 @@
 //            $user = new User();
 //            $user->username = "NIKO123";
 //            $user->save();
+
+//            $photos = User::find_by_id(2);
+//
+//            foreach ($photos as $photo){
+//
+//                echo $photo->username;}
+
+//            $photo = new Photo();
+//
+//            $photo->title = "TEST";
+//            $photo->size = 20;
+//            $photo->create();
+
+            echo DS."<br>";
+            echo SITE_ROOT."<br>";
+            echo INCLUDES_PATH."<br>";
 
 
             ?>
