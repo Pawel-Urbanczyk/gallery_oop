@@ -12,20 +12,21 @@
             <?php
 
 
-            $users = User::find_all();
-
-            foreach ($users as $user){
-                echo $user->username;
-            }
-
-//                $user = new User();
+//            $users = User::find_all();
 //
-//                $user->username = "student2";
-//                $user->password = "weird2";
-//                $user->first_name = "david2";
-//                $user->last_name = "backham2";
-//
-//                $user->create();
+//            foreach ($users as $user){
+//                echo $user->username . "<br>";
+//                echo $user->password . "<br>";
+//            }
+
+                $user = new User();
+
+                $user->username = "NEW_USER";
+                $user->password = "";
+                $user->first_name = "";
+                $user->last_name = "";
+
+                $user->create();
 
 //                $user = User::find_by_id(20);
 //                $user->username = "RAISONOV";
