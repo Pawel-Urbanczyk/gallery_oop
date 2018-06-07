@@ -45,11 +45,9 @@
 //            $user->username = "NIKO123";
 //            $user->save();
 
-//            $users = User::find_by_id(2);
-//
-//            foreach ($users as $user){
-//
-//                echo $user->username;}
+            $user = Photo::find_by_id(6);
+
+                echo $user->filename;
 
 //            $photo = new Photo();
 //
