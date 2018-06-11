@@ -29,26 +29,26 @@ class Photo extends Db_object {
 );
 
 
-public function set_file($file){
+    public function set_file($file){
 
-    if(empty($file) || !$file || !is_array($file)){
+        if(empty($file) || !$file || !is_array($file)){
 
-        $this->errors[] = "There was no file uploaded here";
-        return false;
+            $this->errors[] = "There was no file uploaded here";
+            return false;
 
-    }elseif ($file['error'] !=0){
+        }elseif ($file['error'] !=0){
 
-        $this->errors[] = $this->upload_errors_array[$file['error']];
-        return false;
+            $this->errors[] = $this->upload_errors_array[$file['error']];
+            return false;
 
-    }else{
+        }else{
 
-        $this->filename = basename($file['name']);
-        $this->tmp_path = $file['tmp_name'];
-        $this->type = $file['type'];
-        $this->size = $file['size'];
+            $this->filename = basename($file['name']);
+            $this->tmp_path = $file['tmp_name'];
+            $this->type = $file['type'];
+            $this->size = $file['size'];
 
-        }
+            }
 
     }
 
