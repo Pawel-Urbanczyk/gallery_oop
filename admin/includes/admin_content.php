@@ -45,7 +45,7 @@
 //            $user->username = "NIKO123";
 //            $user->save();
 
-            $user = Photo::find_by_id(6);
+            $user = Photo::find_by_id(7);
 
                 echo $user->filename;
 
