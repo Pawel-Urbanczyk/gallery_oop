@@ -45,15 +45,21 @@
 //            $user->username = "NIKO123";
 //            $user->save();
 
-            $user = Photo::find_by_id(7);
-
-                echo $user->filename;
+//            $user = Photo::find_by_id(7);
+//
+//                echo $user->filename;
 
 //            $photo = new Photo();
 //
 //            $photo->title = "TEST";
 //            $photo->size = 20;
 //            $photo->create();
+
+
+
+                    $photo = Photo::find_by_id(7);
+                    echo $photo->title;
+
 
             echo DS."<br>";
             echo SITE_ROOT."<br>";
