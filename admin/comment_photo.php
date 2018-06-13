@@ -8,11 +8,16 @@ if(!$session->is_signed_in()){
 
 }
 
-?>
+if(empty($_GET['id'])){
 
-<?php
+    redirect("photos.php");
 
-$comments = Comment::find_all();
+}
+
+    $comments = Comment::find_the_comments($_GET['id']);
+
+
+
 
 
 ?>
@@ -44,7 +49,6 @@ $comments = Comment::find_all();
                             <thead>
                             <tr>
                                 <th>ID</th>
-                                <th>Photo_id</th>
                                 <th>Author</th>
                                 <th>Comment</th>
                             </tr>
@@ -53,10 +57,10 @@ $comments = Comment::find_all();
                             <tbody>
                             <?php foreach ($comments as $comment) :?>
                                 <tr>
-                                    <td><?php echo $comment->id; ?></td>
-                                    <td><?php echo $comment->photo_id; ?>
+                                    <td><?php echo $comment->id; ?>
+
                                         <div class="action_links">
-                                            <a href="delete_comment.php?id=<?php echo $comment->id; ?>">Delete</a>
+                                            <a href="delete_comment_photo.php?id=<?php echo $comment->id; ?>">Delete</a>
                                         </div>
                                     </td>
                                     <td><?php echo $comment->author; ?></td>
