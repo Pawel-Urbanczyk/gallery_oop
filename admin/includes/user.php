@@ -39,13 +39,9 @@ class User extends Db_object {
 
     }
 
-    public function save_user_and_image(){
+    public function upload_photo(){
 
-        if($this->id){
 
-            $this->update();
-
-        }else{
 
             if(!empty($this->errors)){
 
@@ -70,12 +66,8 @@ class User extends Db_object {
 
             if(move_uploaded_file($this->tmp_path, $target_path)){
 
-                if($this->create()){
-
                     unset($this->tmp_path);
                     return true;
-
-                }
 
             }else{
 
@@ -84,7 +76,7 @@ class User extends Db_object {
 
             }
 
-        }
+
 
     }
 
