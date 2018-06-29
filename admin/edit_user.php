@@ -84,8 +84,7 @@ if(empty($_GET['id'])){
             <div class="row">
                 <div class="col-lg-12">
                     <h1 class="page-header">
-                        USERS
-                        <small>Subheading</small>
+                        USER
                     </h1>
 
                     <div class="col-md-6 user_image_box">
