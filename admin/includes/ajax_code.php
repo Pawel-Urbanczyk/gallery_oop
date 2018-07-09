@@ -8,14 +8,14 @@
 
     }
 
-    //////////////////////////ten blok dziala troche dziwnie bo niby isset jest true ale juz nie wyrzuca wartosci liczbowej dla zapytania...
+
     if(isset($_POST['photo_id'])){
 
         Photo::display_sidebar_data($_POST['photo_id']);
 
 
     }
-    ///////////////////////////
+
 
 
 

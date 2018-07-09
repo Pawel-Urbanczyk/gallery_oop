@@ -123,7 +123,7 @@ class Photo extends Db_object {
 
     }
 
-// metoda ponizej tez dziala poprawnie bo wpisujac recznie liczbe np. 8 wyswietla sie wszystko dobrze
+
     public static function display_sidebar_data($photo_id){
 
         $photo = Photo::find_by_id($photo_id);
@@ -136,7 +136,6 @@ class Photo extends Db_object {
         echo $output;
 
     }
-    ///////////////////////////////////////////////////////////////////////////////////////////////////
 
 }
 

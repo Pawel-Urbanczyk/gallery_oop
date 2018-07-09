@@ -22,7 +22,7 @@ $(document).ready(function(){
         image_name = image_href_splitted[image_href_splitted.length -1];
 
         photo_id = $(this).attr("data");
-/********************************************************* ten odcinek kodu wywoluje sie dobrze ale gdzies jest problem z przeslaniem wartosci photo_id...
+
         $.ajax({
 
             url: "includes/ajax_code.php",
@@ -39,7 +39,7 @@ $(document).ready(function(){
             }
 
         });
-**********************************************************/
+
     });
 
     $("#set_user_image").click(function(){
