@@ -42,6 +42,7 @@ if(empty($_GET['id'])){
                     <h1 class="page-header">
                        COMMENTS
                     </h1>
+                    <p class="bg-success"><?php echo $message; ?></p>
                     <a href="add_comment.php" class="btn btn-primary">Add comment</a>
 
                     <div class="col-md-12">

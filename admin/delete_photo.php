@@ -23,7 +23,7 @@
     if($photo){
 
         $photo->delete_photo();
-
+        $session->message("The {$photo->filename} photo has been deleted!");
         redirect("photos.php");
 
     }else{

@@ -23,7 +23,7 @@
     if($comment){
 
         $comment->delete();
-
+        $session->message("The comment with id {$comment->id} has been deleted!");
         redirect("comments.php");
 
     }else{

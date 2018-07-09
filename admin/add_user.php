@@ -27,7 +27,10 @@ if(!$session->is_signed_in()){
 
             $user->set_file($_FILES['user_image']);
 
-            $user->save_user_and_image();
+            $user->upload_photo();
+            $session->message("User {$user->username} has been added");
+            $user->save();
+            redirect('users.php');
 
         }
 
