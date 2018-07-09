@@ -11,8 +11,12 @@
     <script src="https://cloud.tinymce.com/stable/tinymce.min.js"></script>
     <script src="js/scripts.js"></script>
 
+    <!--DROPZONE-->
+    <script src="js/dropzone.js"></script>
 
-    <!--Google cahrt API-->
+
+
+  <!--Google cahrt API-->
   <script type="text/javascript">
       google.charts.load('current', {'packages':['corechart']});
       google.charts.setOnLoadCallback(drawChart);
