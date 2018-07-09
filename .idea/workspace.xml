@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a4ccbb2-d2ce-4181-8265-b9352c23db76" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/css/dropzone.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/js/dropzone.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/upload.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/upload.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/scripts.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -32,15 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="delete_comment_photo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/delete_comment_photo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="25" column="82" lean-forward="true" selection-start-line="25" selection-start-column="7" selection-end-line="25" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="add_user.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/add_user.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,6 +51,38 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
+      <file leaf-file-name="scripts.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/js/scripts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="373">
+              <caret line="74" column="63" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/css/styles.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1710">
+              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="edit_photo.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/edit_photo.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,38 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="upload.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="449">
-              <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_comment.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/delete_comment.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="25" column="82" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comments.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/comments.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="39" column="22" lean-forward="true" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="69" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comment_photo.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/comment_photo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="44" column="69" selection-start-line="44" selection-start-column="69" selection-end-line="44" selection-end-column="69" />
+            <state relative-caret-position="-653">
+              <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -172,7 +164,6 @@
         <option value="$PROJECT_DIR$/admin/css/styles.css" />
         <option value="$PROJECT_DIR$/admin/includes/db_object.php" />
         <option value="$PROJECT_DIR$/admin/includes/photo.php" />
-        <option value="$PROJECT_DIR$/admin/js/scripts.js" />
         <option value="$PROJECT_DIR$/admin/includes/photo_library_modal.php" />
         <option value="$PROJECT_DIR$/admin/includes/ajax_code.php" />
         <option value="$PROJECT_DIR$/admin/includes/sessios.php" />
@@ -189,8 +180,9 @@
         <option value="$PROJECT_DIR$/admin/add_user.php" />
         <option value="$PROJECT_DIR$/admin/includes/header.php" />
         <option value="$PROJECT_DIR$/admin/includes/footer.php" />
-        <option value="$PROJECT_DIR$/admin/upload.php" />
         <option value="$PROJECT_DIR$/admin/css/dropzone.css" />
+        <option value="$PROJECT_DIR$/admin/upload.php" />
+        <option value="$PROJECT_DIR$/admin/js/scripts.js" />
       </list>
     </option>
   </component>
@@ -238,7 +230,20 @@
               <item name="gallery_oop" type="b2602c69:ProjectViewProjectNode" />
               <item name="gallery_oop" type="462c0819:PsiDirectoryNode" />
               <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="bootstrap.css" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="gallery_oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery_oop" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
               <item name="includes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="gallery_oop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="gallery_oop" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="gallery_oop" type="b2602c69:ProjectViewProjectNode" />
@@ -299,14 +304,7 @@
       <updated>1526289756441</updated>
       <workItem from="1526289757555" duration="40821000" />
       <workItem from="1528210889831" duration="61110000" />
-      <workItem from="1531123590124" duration="4846000" />
-    </task>
-    <task id="LOCAL-00010" summary="Dodanie kilku metod.">
-      <created>1527280533407</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1527280533407</updated>
+      <workItem from="1531123590124" duration="5919000" />
     </task>
     <task id="LOCAL-00011" summary="Dodanie metody instantation wyciagajaca automatycznie wartosci z bazy danych do tablicy.">
       <created>1527282097391</created>
@@ -644,11 +642,18 @@
       <option name="project" value="LOCAL" />
       <updated>1531127924171</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="Dodanie dropzone w celu wrzucenia kilku zdjec naraz">
+      <created>1531129321297</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1531129321297</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106777000" />
+    <option name="totallyTimeSpent" value="107850000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,7 +665,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="805" extended-state="0" />
+    <frame x="-1" y="23" width="1440" height="805" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1788269" />
@@ -693,7 +698,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Dodanie metody delete_photo usuwajace zdjecia z folderu i bazy danych" />
     <MESSAGE value="Dodanie formularza edycji" />
     <MESSAGE value="Dodanie logiki edycji + testy" />
     <MESSAGE value="Dodanie custom styles.css do prawego sidebara" />
@@ -718,7 +722,8 @@
     <MESSAGE value="Dodanie komentarzy w admin/includes/ajax_code.php, admin/includes/photo.php, admin/includes/js/scripts.js z opisem problemu" />
     <MESSAGE value="Poprawa bledu, dodanie metody sprawdzajacej message oraz wyswietlenie jej po edycji uzytkownika" />
     <MESSAGE value="Dodanie messages do CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie messages do CRUD" />
+    <MESSAGE value="Dodanie dropzone w celu wrzucenia kilku zdjec naraz" />
+    <option name="LAST_COMMIT_MESSAGE" value="Dodanie dropzone w celu wrzucenia kilku zdjec naraz" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -726,13 +731,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/includes/database.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="40" column="26" lean-forward="true" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/init.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -808,13 +806,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="683">
           <caret line="42" column="46" selection-start-line="42" selection-start-column="46" selection-end-line="42" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/edit_photo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="15" lean-forward="true" selection-start-line="14" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -895,13 +886,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/css/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/includes/database.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -920,13 +904,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/js/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1068,10 +1045,34 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="449">
-          <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
+        <state relative-caret-position="-653">
+          <caret line="17" column="34" lean-forward="true" selection-start-line="17" selection-start-column="34" selection-end-line="17" selection-end-column="34" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/edit_photo.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="96" column="40" lean-forward="true" selection-start-line="96" selection-start-column="40" selection-end-line="96" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/js/scripts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="373">
+          <caret line="74" column="63" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
