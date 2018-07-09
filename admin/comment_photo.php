@@ -61,7 +61,7 @@ if(empty($_GET['id'])){
                                     <td><?php echo $comment->id; ?>
 
                                         <div class="action_links">
-                                            <a href="delete_comment_photo.php?id=<?php echo $comment->id; ?>">Delete</a>
+                                            <a class="delete_link" href="delete_comment_photo.php?id=<?php echo $comment->id; ?>">Delete</a>
                                         </div>
                                     </td>
                                     <td><?php echo $comment->author; ?></td>

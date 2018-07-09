@@ -76,6 +76,14 @@ $(document).ready(function(){
 
     });
 
+    /***delete event***/
+    
+    $(".delete_link").click(function () {
+
+        return confirm("Are you sure you want to delete this item ?");
+        
+    });
+
     tinymce.init({ selector:'textarea' });
 
 });
